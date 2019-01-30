@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+	<meta name="renderer" content="webkit">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<title>海带菌官网</title>
+	<link rel="stylesheet" href="./static/css/style.css">
+	<script type="text/javascript">
+    !function () {
+      var a = "@charset \"utf-8\";html{color:#000;background:#fff;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html *{outline:0;-webkit-text-size-adjust:none;-webkit-tap-highlight-color:rgba(0,0,0,0)}html,body{font-family:sans-serif}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{margin:0;padding:0}input,select,textarea{font-size:100%}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}abbr,acronym{border:0;font-variant:normal}del{text-decoration:line-through}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:500}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:500}q:before,q:after{content:''}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}a:hover{text-decoration:underline}ins,a{text-decoration:none}",
+          b = document.createElement("style");
+      if (document.getElementsByTagName("head")[0].appendChild(b), b.styleSheet) b.styleSheet.disabled || (b.styleSheet.cssText = a); else try {
+        b.innerHTML = a
+      } catch (c) {
+        b.innerText = a
+      }
+    }();
+    !function (a, b) {
+      function c() {
+        var b = f.getBoundingClientRect().width;
+        b / i > 540 && (b = 540 * i);
+        var c = b / 10;
+        f.style.fontSize = c + "px", k.rem = a.rem = c
+      }
+
+      var d, e = a.document, f = e.documentElement, g = e.querySelector('meta[name="viewport"]'), h = e.querySelector('meta[name="flexible"]'), i = 0, j = 0,
+          k = b.flexible || (b.flexible = {});
+      if (g) {
+        console.warn("将根据已有的meta标签来设置缩放比例");
+        var l = g.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
+        l && (j = parseFloat(l[1]), i = parseInt(1 / j))
+      } else if (h) {
+        var m = h.getAttribute("content");
+        if (m) {
+          var n = m.match(/initial\-dpr=([\d\.]+)/), o = m.match(/maximum\-dpr=([\d\.]+)/);
+          n && (i = parseFloat(n[1]), j = parseFloat((1 / i).toFixed(2))), o && (i = parseFloat(o[1]), j = parseFloat((1 / i).toFixed(2)))
+        }
+      }
+      if (!i && !j) {
+        var p = (a.navigator.appVersion.match(/android/gi), a.navigator.appVersion.match(/iphone/gi)), q = a.devicePixelRatio;
+        i = p ? q >= 3 && (!i || i >= 3) ? 3 : q >= 2 && (!i || i >= 2) ? 2 : 1 : 1, j = 1 / i
+      }
+      if (f.setAttribute("data-dpr", i), !g) if (g = e.createElement("meta"), g.setAttribute("name", "viewport"), g.setAttribute("content", "initial-scale=" + j + ", maximum-scale=" + j + ", minimum-scale=" + j + ", user-scalable=no"), f.firstElementChild) f.firstElementChild.appendChild(g); else {
+        var r = e.createElement("div");
+        r.appendChild(g), e.write(r.innerHTML)
+      }
+      a.addEventListener("resize", function () {clearTimeout(d), d = setTimeout(c, 300)}, !1), a.addEventListener("pageshow", function (a) {a.persisted && (clearTimeout(d), d = setTimeout(c, 300))}, !1), "complete" === e.readyState ? e.body.style.fontSize = 12 * i + "px" : e.addEventListener("DOMContentLoaded", function () {e.body.style.fontSize = 12 * i + "px"}, !1), c(), k.dpr = a.dpr = i, k.refreshRem = c, k.rem2px = function (a) {
+        var b = parseFloat(a) * this.rem;
+        return "string" == typeof a && a.match(/rem$/) && (b += "px"), b
+      }, k.px2rem = function (a) {
+        var b = parseFloat(a) / this.rem;
+        return "string" == typeof a && a.match(/px$/) && (b += "rem"), b
+      }
+    }(window, window.lib || (window.lib = {}));
+	</script>
+</head>
+<body>
+<div class="wrapper">
+	<div class="index-page">
+		<div class="header">
+			<div class="top">
+				<div class="logo"></div>
+				<div class="menu">
+					<a href="javascript:;" class="menu-btn" id="menu-btn"></a>
+					<div class="menu-list" id="menu-list">
+						<a href="#link1">关于海带菌</a>
+						<a href="#link2">产品介绍</a>
+						<a href="#link3">团队成员</a>
+						<a href="#link4">联系我们</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-main">
+				<p class="p1">海纳好物<br />带我所爱</p>
+				<p class="p2">抢先体验海带产品，羊毛一起薅，<br />好货一起挑，银子一起捞</p>
+				<a href="javascript:;" class="js-show-app">抢先体验</a>
+			</div>
+		</div>
+		<div class="index-main">
+			<div class="main-box" id="link1">
+				<img src="static/images/img1.png" alt="" class="img1" />
+				<h3><span>01</span><div style="margin-bottom:-8px">海带菌是什么</div></h3>
+				<p class="p1">人生不仅有诗和远方，还有包和美妆</p>
+				<p>因为爱好旅行也经常给闺蜜朋友们带货，积累了一丢丢小有成就的经验，本着互联网人的第六感，开始琢磨如何用互联网思维及平台化产品策略做一款服务于代购专家以及爱好旅游扫货宝宝们的工具，愿景是羊毛一起薅，好货一起挑，银子一起捞。</p>
+				<a href="javascript:;" class="js-show-app">抢先体验</a>
+			</div>
+			<div class="main-box" id="link2">
+				<img src="static/images/img2.png" alt="" class="img2" />
+				<h3><span>02</span><div style="margin-bottom:-8px">折扣信息推送</div></h3>
+				<p class="p1">公众号高频推送机票、酒店、商品折扣信息</p>
+				<p>通过一些较高端、复杂等（吹不下去了……）的数据抓取方式，帮助代购小伙们、以及驴友们发现一些炒鸡便宜的机票、酒店，后续还将定点与国外的shoppingmall合作，挖掘更多有价值的商品折扣。</p>
+				<a href="javascript:;" class="js-show-gzh">立即关注</a>
+			</div>
+			<div class="main-box">
+				<img src="static/images/img3.png" alt="" class="img3" />
+				<h3><span>03</span><div style="margin-bottom:-8px">效率提升小程序</div></h3>
+				<p class="p1">高效收集商品订单、整理采购需求</p>
+				<p>代购工具小程序已在内测中（可以用它来发布旅程代购计划，收集需求，跟进代购流程，旅行途中订单时时看，银子时时赚……），如果您有意向，可以添加下面的官方客服微信 报名内测，开放名额有限，先到先得哦</p>
+				<a href="javascript:;" class="js-show-app">抢先体验</a>
+			</div>
+			<div class="main-box" id="link3">
+				<img src="static/images/img4.png" alt="" class="img4" />
+				<h3><span>04</span><div style="margin-bottom:-8px">团队成员</div></h3>
+				<p class="p1">奔三互联网创业团队</p>
+				<p>爱好逛吃逛吃外加薅羊毛，信奉格言“人生不仅只有诗和远方，还有包和美妆”。去过浪漫的土耳其，也荡过东京和柏林，其实我最爱和闺蜜逛有奥莱的洛杉矶……</p>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="contact">
+				<h3>联系我们</h3>
+				<p>邮箱地址：contact@haidai666.com<br />
+				   微信号：haidai666-com</p>
+			</div>
+			<div class="qr-code-box" id="link4">
+				<div class="qr-item">
+					<p>官方公众号</p>
+					<img src="static/images/qrcode2.png" alt="" class="ml-5" />
+				</div>
+				<div class="qr-item">
+					<p>官方小程序</p>
+					<img src="static/images/qrcode1.png" alt="" />
+				</div>
+			</div>
+			<hr class="hr" />
+			<div class="info">沪ICP备18006247号-1 © 2012-2018 海带菌 - 海纳好物，带我所爱</div>
+		</div>
+	</div>
+</div>
+<!--官方小程序-->
+<div class="qrcode-dialog" id="qrcode-app">
+	<div class="qr-box">
+		<p>官方小程序</p>
+		<img src="static/images/qrcode1.png" alt="" />
+	</div>
+</div>
+<!--官方公众号-->
+<div class="qrcode-dialog" id="qrcode-gzh">
+	<div class="qr-box">
+		<p>官方公众号</p>
+		<img src="static/images/qrcode2.png" alt="" />
+	</div>
+</div> 
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  function showDiv(id){
+    $('#'+id).show();
+  }
+  $(function (){
+    var qrApp = $("#qrcode-app");
+    var qrGzh = $("#qrcode-gzh");
+    var menuList = $('#menu-list');
+
+    $(qrApp).click(function (event){
+      event.stopPropagation();//阻止事件向上冒泡
+    });
+    $(qrGzh).click(function (event){
+      event.stopPropagation();//阻止事件向上冒泡
+    });
+		$(".wrapper").click(function (event){
+			$("#qrcode-app").hide();
+			$("#qrcode-gzh").hide();
+    });
+    // 官网小程序
+    $(".js-show-app").click(function (event){
+      showDiv('qrcode-app');//调用显示DIV方法
+      $(document).one("click", function (){//对document绑定一个影藏Div方法
+        $(qrApp).hide();
+      });
+      event.stopPropagation();//阻止事件向上冒泡
+    });
+    // 官网公众号
+    $(".js-show-gzh").click(function (event){
+      showDiv('qrcode-gzh');//调用显示DIV方法
+      $(document).one("click", function (){//对document绑定一个影藏Div方法
+        $(qrGzh).hide();
+      });
+      event.stopPropagation();//阻止事件向上冒泡
+    });
+	  // 菜单
+    $('#menu-btn').click(function () {
+      if ($('#menu-list').is(':visible')) {
+        $('#menu-list').hide();
+        return false;
+      }
+      showDiv('menu-list');//调用显示DIV方法
+      $(document).one("click", function (){//对document绑定一个影藏Div方法
+        $(menuList).hide();
+      });
+      event.stopPropagation();//阻止事件向上冒泡
+    });
+  });
+</script>
+</html>

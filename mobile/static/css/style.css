@@ -1,0 +1,267 @@
+[data-dpr="2"] .wrapper {
+  font-size: 25.2px;
+}
+[data-dpr="3"] .wrapper {
+  font-size: 42px;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  color: #888;
+  font-family: "Microsoft Yahei", Arial, sans-serif !important;
+  background: #FF4729;
+  /* 一些不支持背景渐变的浏览器 */
+  background: -moz-linear-gradient(top, #fff, #FBFBFB);
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#FBFBFB));
+  background: -o-linear-gradient(top, #fff, #FBFBFB);
+}
+a {
+  text-decoration: none !important;
+}
+.wrapper {
+  position: relative;
+  width: 10rem;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.index-page .header {
+  width: 100%;
+  height: 13.33333333rem;
+  background: #FF4729;
+  /* 一些不支持背景渐变的浏览器 */
+  background: -moz-linear-gradient(top, #FF4729, #FF2C4A);
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FF4729), to(#FF2C4A));
+  background: -o-linear-gradient(top, #FF4729, #FF2C4A);
+}
+.index-page .header .top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.32rem;
+}
+.index-page .header .top .logo {
+  /*width: 1.46666667rem;*/
+  width: 2rem;
+  /* height: 0.53333333rem; */
+  height: 0.8rem;  
+  background: url(../images/logo.png) no-repeat;
+  background-size: contain;
+}
+.index-page .header .top .menu {
+  position: relative;
+}
+.index-page .header .top .menu .menu-btn {
+  display: block;
+  width: 0.64rem;
+  height: 0.64rem;
+  background: url(../images/menu.png) no-repeat;
+  background-size: contain;
+}
+.index-page .header .top .menu .menu-list {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3.09333333rem;
+  padding: 0.4rem 0;
+  position: absolute;
+  top: 0.93333333rem;
+  right: 0;
+  box-shadow: 0 0 0.4rem 0 #FF0100;
+  background: #fff;
+}
+.index-page .header .top .menu .menu-list a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #3E3E3E;
+  font-size: 0.37333333rem;
+  font-weight: 600;
+  line-height: 0.72rem;
+}
+.index-page .header .top .menu .menu-list a:hover {
+  background: #ddd;
+}
+.index-page .header .header-main {
+  margin: 1.73333333rem 0.93333333rem;
+}
+.index-page .header .header-main p {
+  color: #fff;
+  font-size: 0.32rem;
+  line-height: 0.42666667rem;
+  margin-bottom: 0.26666667rem;
+}
+.index-page .header .header-main p.p1 {
+  font-size: 0.74666667rem;
+  font-weight: 600;
+  line-height: 0.96rem;
+  margin-bottom: 0.13333333rem;
+}
+.index-page .header .header-main a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3.2rem;
+  height: 0.96rem;
+  color: #FF3A39;
+  font-size: 0.37333333rem;
+  font-weight: 600;
+  border-radius: 1.33333333rem;
+  background: #fff;
+}
+.index-page .index-main {
+  margin: 0 1.33333333rem 0.66666667rem;
+}
+.index-page .index-main .main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 0.66666667rem; */
+  margin-top: 1.5rem;
+  
+}
+.index-page .index-main .main-box img {
+  font-size: 0;
+  margin-bottom: 0.4rem;
+}
+.index-page .index-main .main-box img.img1 {
+  height: 4rem;
+}
+.index-page .index-main .main-box img.img2 {
+  height: 4rem;
+}
+.index-page .index-main .main-box img.img3 {
+  height: 4.8rem;
+}
+.index-page .index-main .main-box img.img4 {
+  height: 4.8rem;
+}
+.index-page .index-main .main-box h3 {
+  display: flex;
+  align-items: center;
+  color: #FF3A39;
+  font-size: 0.64rem;
+  line-height: 0.90666667rem;
+}
+.index-page .index-main .main-box h3 span {
+  font-size: 1.06666667rem;
+  font-weight: 600;
+}
+.index-page .index-main .main-box p {
+  color: #7D7D7D;
+  font-size: 0.32rem;
+  line-height: 0.53333333rem;
+  text-align: center;
+}
+.index-page .index-main .main-box p.p1 {
+  color: #3E3E3E;
+  font-weight: 600;
+  margin: 0.13333333rem auto 0.4rem;
+}
+.index-page .index-main .main-box a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.33333333rem;
+  height: 1.06666667rem;
+  color: #fff;
+  font-size: 0.4rem;
+  font-weight: 600;
+  margin: 0.4rem auto 0;
+  border-radius: 100px;
+  background: #FF4729;
+  /* 一些不支持背景渐变的浏览器 */
+  background: -moz-linear-gradient(left, #FF4729, #FF2C4A);
+  background: -o-linear-gradient(left, #FF4729, #FF2C4A);
+  background-image: linear-gradient(45deg, #FF4729 0%, #FF2C4A 100%);
+}
+.index-page .footer {
+  padding-top: 1.06666667rem;
+  background: #fff;
+}
+.index-page .footer .contact {
+  font-size: 0.32rem;
+  line-height: 0.53333333rem;
+  margin-left: 2rem;
+}
+.index-page .footer .contact h3 {
+  color: #3E3E3E;
+  font-weight: 600;
+}
+.index-page .footer .contact p {
+  color: #7D7D7D;
+}
+.index-page .footer .qr-code-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.66666667rem 2rem;
+}
+.index-page .footer .qr-code-box p {
+  color: #3E3E3E;
+  font-size: 0.32rem;
+  font-weight: 600;
+}
+.index-page .footer .qr-code-box img {
+  width: 2.66666667rem;
+  font-size: 0;
+}
+.index-page .footer .qr-code-box img.ml-5 {
+  margin-left: -0.06666667rem;
+}
+.index-page .footer .hr {
+  display: flex;
+  width: 7.2rem;
+  height: 0;
+  margin: 0 auto;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+.index-page .footer .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.33333333rem;
+  font-size: 0.26666667rem;
+  transform: scale(0.8);
+}
+.qrcode-dialog {
+  display: none;
+  width: 6.66666667rem;
+  height: 7.73333333rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -3.86666667rem 0 0 -3.33333333rem;
+}
+.qr-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 6.66666667rem;
+  height: 7.73333333rem;
+  box-shadow: 0 0 0.66666667rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.53333333rem;
+  background: #fff;
+}
+.qr-box p {
+  color: #3E3E3E;
+  font-size: 0.48rem;
+  padding-bottom: 0.4rem;
+}
+.qr-box img {
+  width: 5.33333333rem;
+  font-size: 0;
+  position: relative;
+  z-index: 1;
+}
